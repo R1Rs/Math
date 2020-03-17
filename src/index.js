@@ -1,3 +1,3 @@
-import "./character js/character.js";
-import "./character js/daemon.js";
-import "./character js/magician.js";
+import "./character/character.js";
+import "./character/daemon.js";
+import "./character/magician.js";

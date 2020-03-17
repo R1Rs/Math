@@ -17,6 +17,10 @@ export default class Daemon extends Character {
   }
 
   stoned() {
-    this.stone = true;
+    if (this.stone === true) {
+      this.stone = false;
+    } else {
+      this.stone = true;
+    }
   }
 }

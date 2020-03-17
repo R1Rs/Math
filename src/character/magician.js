@@ -18,9 +18,9 @@ export default class Magician extends Character {
 
   stoned() {
     if (this.stone === true) {
-        this.stone = false;
+      this.stone = false;
     } else {
-        this.stone = true;
+      this.stone = true;
     }
   }
 }
